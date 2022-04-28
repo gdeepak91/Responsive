@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.txt2 {
+  font-size: 4vw;
+}
+.txt {
+  text-align: justify;
+  font-size: 2vw;
+}
+#left {
+  background-color: red;
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+#main {
+  background-color: green;
+  float: left;
+  width: 60%;
+  padding: 20px;
+}
+#right {
+  background-color: yellow;
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+.img {
+  float: left;
+  width: 100%;
+  margin: 20px 50px 20px 0px;
+}
+img {
+  width: 19.7%;
+}
+@media (max-width: 768px) {
+  #left,
+  #right,
+  #main {
+    width: 100%;
+  }
+  .img img {
+    width: 100%;
+    height: auto;
+  }
+}
